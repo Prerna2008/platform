@@ -86,11 +86,11 @@ function draw() {
   rope4.display();
   rope5.display();
   strokeWeight(4)
-  line1(bob1.body.position.x,bob1.body.position.y,platform.body.position.x,platform.body.position.y);
-  line2(bob2.body.position.x,bob2.body.position.y,platform.body.position.x,platform.body.position.y);
-  line2(bob3.body.position.x,bob3.body.position.y,platform.body.position.x,platform.body.position.y);
-  line3(bob4.body.position.x,bob4.body.position.y,platform.body.position.x,platform.body.position.y);
-  line5(bob5.body.position.x,bob5.body.position.y,platform.body.position.x,platform.body.position.y);
+  line(bob1.body.position.x,bob1.body.position.y,platform.body.position.x,platform.body.position.y);
+  line(bob2.body.position.x,bob2.body.position.y,platform.body.position.x,platform.body.position.y);
+  line(bob3.body.position.x,bob3.body.position.y,platform.body.position.x,platform.body.position.y);
+  line(bob4.body.position.x,bob4.body.position.y,platform.body.position.x,platform.body.position.y);
+  line(bob5.body.position.x,bob5.body.position.y,platform.body.position.x,platform.body.position.y);
 }
 
 function keyPressed(){
